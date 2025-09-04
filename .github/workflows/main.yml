@@ -3,11 +3,11 @@ name: CI
 on : [push]
 jobs:
     sast_scan:
-        name: Run Bandit sast_scan
+        name: Run Bandit Scan
         runs-on: ubuntu-latest
 
         steps:
-        -name: checkout code
+        -name: Checkout code
             uses: actions/checkout@v2
 
 
