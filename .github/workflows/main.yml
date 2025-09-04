@@ -19,5 +19,8 @@ jobs:
             -name: Install Bandit
                 run: pip install Bandit
 
-            -name: run Bandit sast_scan run: bandit -r .
+            -name: run Bandit Scan 
+                run: bandit -r .
+
+                
             
